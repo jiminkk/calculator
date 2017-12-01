@@ -1,10 +1,40 @@
 import React from 'react';
+import Button from './Button';
 
 class ButtonPanel extends React.Component {
 	render() {
 		return (
 			<div>
-				Welcome to ButtonPanel
+				<div>
+					<Button />
+					<Button />
+					<Button />
+					<Button />
+				</div>
+				<div>
+					<Button />
+					<Button />
+					<Button />
+					<Button />
+				</div>
+				<div>
+					<Button />
+					<Button />
+					<Button />
+					<Button />
+				</div>
+				<div>
+					<Button />
+					<Button />
+					<Button />
+					<Button />
+				</div>
+				<div>
+					<Button />
+					<Button />
+					<Button />
+					<Button />
+				</div>
 			</div>
 		);
 	}
