@@ -56,7 +56,7 @@ export default function calculate(obj, buttonName) {
 		if (obj.total) {
 			// I think we don't need to do anything here.
 		}
-		return { total: '0.' };
+		return { current: '0.' };
 	}
 
 	if (buttonName === '=') {
