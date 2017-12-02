@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../style/Display.css';
 
 class Display extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="component-display">
 				<div>
 					{this.props.value}
 				</div>

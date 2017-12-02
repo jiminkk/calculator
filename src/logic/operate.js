@@ -12,7 +12,7 @@ export default function operate(numberOne, numberTwo, operation) {
 	if (operation === 'x') {
 		return one.times(two).toString();
 	}
-	if (operation === '/') {
+	if (operation === '÷') {
 		return one.div(two).toString();
 	}
 	if (operation === '%') {

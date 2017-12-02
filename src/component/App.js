@@ -2,6 +2,7 @@ import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import '../style/App.css';
 
 class App extends React.Component {
 	constructor(props) {
@@ -19,7 +20,7 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div className="component-app">
 				<Display 
 					value={this.state.current || this.state.total || '0'}
 				/>
