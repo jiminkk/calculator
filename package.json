@@ -2,7 +2,7 @@
   "name": "calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jiminkk.github.io/calculator",
+  "homepage": "https://jiminkk.github.io/calculator",
   "devDependencies": {
     "gh-pages": "^0.11.0",
     "react-scripts": "0.4.1"
