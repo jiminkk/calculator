@@ -2,6 +2,11 @@
   "name": "calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jiminkk.github.io/calculator",
+  "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "react-scripts": "0.4.1"
+  },
   "dependencies": {
     "big.js": "^3.2.0",
     "prop-types": "^15.6.0",
@@ -13,6 +18,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
   }
 }
